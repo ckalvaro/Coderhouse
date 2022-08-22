@@ -5,3 +5,4 @@ from django.template import Template, loader
 def inicio(request):
     return render(request, 'DesafioEntregable/inicio.html')
 
+

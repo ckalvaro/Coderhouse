@@ -19,7 +19,7 @@ from DesafioEntregable.views import inicio
 
 urlpatterns = [
     path('', inicio, name='inicio'),
-    path('admin/', admin.site.urls, name='admin_url'),
+    path('admin/', admin.site.urls, name='adminurl'),
     path('familiapp/', include('FamiliApp.urls'), name = 'familiapp'),
 
 ]
